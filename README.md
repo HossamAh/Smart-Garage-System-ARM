@@ -3,14 +3,14 @@
 * Project uses STM32F401cc microcontrollers
 
 # ECUs
-* Master ECU which is responsible to:
+- Master ECU which is responsible to:
 *  Monitor IR sensors at garage slots and Door
 *  Control Door logic according to slots and door state.
 *  end slots states to ECU2 (slave) to display it. 
 
-* Slave ECU which is responsible to:display Slot status.
+- Slave ECU which is responsible to:display Slot status.
 
-* Master and slave ECUs communicate via UART
+- Master and slave ECUs communicate via UART
 
 # Drivers implemened for this project (implemented from scratch)
 * RCC Driver (Clock Driver)
