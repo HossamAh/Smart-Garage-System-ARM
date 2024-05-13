@@ -4,9 +4,9 @@
 
 # ECUs
 * Master ECU which is responsible to:
-    * 				1- Monitor IR sensors at garage slots and Door
-    * 				2- Control Door logic according to slots and door state.
-    * 				3- send slots states to ECU2 (slave) to display it. 
+     1- Monitor IR sensors at garage slots and Door
+     2- Control Door logic according to slots and door state.
+     3- send slots states to ECU2 (slave) to display it. 
 
 * Slave ECU which is responsible to:display Slot status.
 
